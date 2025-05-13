@@ -1,0 +1,30 @@
+{
+  "name": "@coderundebug/ui-web",
+  "type": "module",
+  "version": "0.0.1",
+  "description": "A collection of UI web components that can be used in any web project.",
+  "repository": "github:StephenHassall/ui-web",
+  "funding": "https://github.com/sponsors/StephenHassall",
+  "homepage": "https://ui-web.com",
+  "bugs": {
+    "url": "https://github.com/StephenHassall/ui-web/issues",
+    "email": "StephenPaulHassall@hotmail.com"
+  },
+  "types": "./.d.js",
+  "scripts": {
+  },
+  "author": {
+    "name": "Stephen Paul Hassall",
+    "email": "StephenPaulHassall@hotmail.com",
+    "url": "https://coderundebug.com/"
+  },
+  "keywords": [
+    "gui",
+    "ui",
+    "ui/ux",
+    "web",
+    "workersweb component",
+    "vanilla JS"
+  ],
+  "license": "MIT"
+}

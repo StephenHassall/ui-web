@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiInputText as e}from"./ui-input-text.js";export class UiInputTelephone extends e{constructor(){super("tel")}}customElements.whenDefined("ui-input-text").then((()=>{customElements.define("ui-input-telephone",UiInputTelephone)}));

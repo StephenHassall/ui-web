@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiInputText as s}from"./ui-input-text.js";export class UiInputPassword extends s{constructor(){super("password")}showPassword(s){!0===s?this.inputElement.setAttribute("type","text"):this.inputElement.setAttribute("type","password")}}customElements.whenDefined("ui-input-text").then((()=>{customElements.define("ui-input-password",UiInputPassword)}));

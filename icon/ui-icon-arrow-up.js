@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as o}from"./ui-icon.js";export class UiIconArrowUp extends o{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"><path style="stroke: var(--ui-c2);" d="M 8,2 V 15"></path><path style="stroke: var(--ui-c1);" d="M 2,7 8,1 14,7"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-arrow-up",UiIconArrowUp)}));

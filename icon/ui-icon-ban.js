@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as c}from"./ui-icon.js";export class UiIconBan extends c{constructor(){super(' <svg viewBox="0 0 16 16" style=" stroke-width: 2; fill: none"><path style="stroke: var(--ui-c2);" d="M 3,13 13,3"></path><circle style="stroke: var(--ui-c1);" cx="8" cy="8" r="7"></circle></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-ban",UiIconBan)}));

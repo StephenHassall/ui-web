@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+let e=null;if(e=window.localStorage.getItem("ui-theme"),!e){const t=document.head.querySelector("script[default-ui-theme]");t&&(e=t.getAttribute("default-ui-theme"))}if(e){const t=document.createElement("link");t.setAttribute("ui-theme",""),t.rel="stylesheet",t.type="text/css",t.href=e,document.head.appendChild(t)}

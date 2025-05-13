@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as t}from"./ui-icon.js";export class UiIconHeart extends t{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke-width: 1.5; stroke-linejoin: round;"><path style="stroke: var(--ui-c2);" d="m 8,5 c 0,0 1,-3 4,-3 3,0 3,3 3,4 0,4 -6,8 -7,8"></path><path style="stroke: var(--ui-c1);" d="M 8,5 C 8,5 7,2 4,2 1,2 1,5 1,6 c 0,4 6,8 7,8"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-heart",UiIconHeart)}));

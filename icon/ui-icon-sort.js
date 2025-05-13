@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as t}from"./ui-icon.js";export class UiIconSort extends t{constructor(){super(' <svg viewBox="0 0 16 16" style=" stroke-width: 1; stroke-linejoin: round;"><path style="fill: var(--ui-c1); stroke: var(--ui-c1);" d="m 8,2.5 3,4 H 5 Z"></path><path style="fill: var(--ui-c2); stroke: var(--ui-c2);" d="m 8,13.5 3,-4 H 5 Z"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-sort",UiIconSort)}));

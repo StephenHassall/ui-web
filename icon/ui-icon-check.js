@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as e}from"./ui-icon.js";export class UiIconCheck extends e{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke-width: 2; stroke-linecap: round;"><path style="stroke: var(--ui-c2);" d="M 6,12 14,4"></path><path style="stroke: var(--ui-c1);" d="m 2,8 4,4"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-check",UiIconCheck)}));

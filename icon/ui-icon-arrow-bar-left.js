@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as t}from"./ui-icon.js";export class UiIconArrowBarLeft extends t{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"><path style="stroke: var(--ui-c1);" d="M 9,3 4,8 9,13"></path><path style="stroke: var(--ui-c1);" d="M 5,8 H 15"></path><path style="stroke: var(--ui-c2);" d="M 1,3 V 13"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-arrow-bar-left",UiIconArrowBarLeft)}));

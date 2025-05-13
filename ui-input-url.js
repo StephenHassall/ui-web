@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiInputText as t}from"./ui-input-text.js";export class UiInputUrl extends t{constructor(){super("email")}}customElements.whenDefined("ui-input-text").then((()=>{customElements.define("ui-input-url",UiInputUrl)}));

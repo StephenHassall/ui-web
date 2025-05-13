@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as c}from"./ui-icon.js";export class UiIconDots extends c{constructor(){super(' <svg viewBox="0 0 16 16" style="stroke: none;"><circle style="fill: var(--ui-c1);" cx="4" cy="8"r="1"></circle><circle style="fill: var(--ui-c2);" cx="8" cy="8"r="1"></circle><circle style="fill: var(--ui-c1);" cx="12" cy="8"r="1"></circle></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-dots",UiIconDots)}));

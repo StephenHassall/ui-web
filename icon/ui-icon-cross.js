@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as s}from"./ui-icon.js";export class UiIconCross extends s{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke-width: 2; stroke-linecap: round;"><path style="stroke: var(--ui-c2);" d="M 2,2 14,14"></path><path style="stroke: var(--ui-c1);" d="M 2,14 14,2"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-cross",UiIconCross)}));

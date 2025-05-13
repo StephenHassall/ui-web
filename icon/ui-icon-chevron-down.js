@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as o}from"./ui-icon.js";export class UiIconChevronDown extends o{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke: var(--ui-c1); stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"><path d="m 4,6 4,4 4,-4"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-chevron-down",UiIconChevronDown)}));

@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as o}from"./ui-icon.js";export class UiIconChevronDoubleUp extends o{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin: round;"><path style="stroke: var(--ui-c1);" d="M 4,7 8,3 12,7"></path><path style="stroke: var(--ui-c2);" d="m 4,13 4,-4 4,4"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-chevron-double-up",UiIconChevronDoubleUp)}));

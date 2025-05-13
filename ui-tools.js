@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+export class UiTools{static async createUi(t,e,s){if(!t.uiCss){const e=s.substring(0,s.length-3),a=e+".css",c=e+".html";let i=await Promise.all([fetch(a),fetch(c)]);i=await Promise.all([i[0].text(),i[1].text()]),t.uiCss=i[0],t.uiHtml=i[1]}t.uiCssStyleSheet=new CSSStyleSheet,await t.uiCssStyleSheet.replace(t.uiCss),customElements.define(e,t)}}
