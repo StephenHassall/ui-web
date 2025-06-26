@@ -1,7 +1,7 @@
 {
   "name": "@coderundebug/ui-web",
   "type": "module",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A collection of UI web components that can be used in any web project.",
   "repository": "github:StephenHassall/ui-web",
   "funding": "https://github.com/sponsors/StephenHassall",

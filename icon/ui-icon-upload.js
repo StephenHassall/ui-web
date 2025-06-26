@@ -1,0 +1,2 @@
+/* By Stephen Paul Hassall (web: https://coderundebug.com) */
+import{UiIcon as o}from"./ui-icon.js";export class UiIconUpload extends o{constructor(){super(' <svg viewBox="0 0 16 16" style=" fill: none; stroke-width: 2; stroke-linecap: round; stroke-linejoin:round"><path style="stroke: var(--ui-c1);" d="m 1,11 v 4 h 14 v -4"></path><path style="stroke: var(--ui-c2);" d="M 4,5 8,1 12,5"></path><path style="stroke: var(--ui-c2);" d="m 8,2 v 9"></path></svg>')}}customElements.whenDefined("ui-icon").then((()=>{customElements.define("ui-icon-upload",UiIconUpload)}));
