@@ -13,3 +13,5 @@ npm install @coderundebug/ui-web
 ## Information
 
 You can find all the information you need at the [ui-web.com](https://ui-web.com) web site.
+
+For LLM component documentation go to [github.com/StephenHassall/ui-web/llm/llm.md](https://github.com/StephenHassall/ui-web/llm/llm.md).
